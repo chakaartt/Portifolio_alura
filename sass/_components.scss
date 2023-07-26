@@ -1,0 +1,42 @@
+.s-skills {
+  .skill {
+    display: flex;
+    gap: 16px;
+    margin-left: -103px;
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 700;
+      margin-top: 32px;
+      position: relative;
+      right: -630px;
+      color: $color-preta;
+    }
+    .card-skills {
+      width: 100%;
+      margin-top: 50px;
+      ul {
+        li {
+          background: #fff;
+          width: 176px;
+          height: 174px;
+          margin-top: 50px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          border-radius: 20px;
+          img {
+            display: flex;
+            width: 58px;
+            padding-top: 55px;
+          }
+          span {
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}
